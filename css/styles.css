@@ -1,16 +1,39 @@
+/*  Reset base */
 * {
   margin: 0;
   padding: 0;
 }
-
-header img {
+/* Logo */
+.img-header {
   margin-top: 25px;
   width: 250px;
 }
-
+/* Barra superiore con colore e pattern */
 header {
   height: 100px;
   background-color: #55a4ff;
   background-image: url(../img/pattern.png);
   background-size: 400px;
+}
+/* Spaziatura interna e margine dall’header */
+main {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+/* Testo in grigio  */
+.color-grey {
+  color: rgb(128, 128, 128);
+}
+/* Link stile Boolean */
+.link-boolean {
+  text-decoration: none;
+  color: #45b5ff;
+}
+/* Margine superiore standard per elementi */
+.mt-20 {
+  margin-top: 20px;
+}
+/* Padding sulla lista */
+.list {
+  padding-left: 20px;
 }
