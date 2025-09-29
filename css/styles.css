@@ -46,7 +46,7 @@ main {
 .pd-50 {
   padding: 0 50px;
 }
-/* Impedisce lo spazio tra i bordi delle celle */
+/*  spazio tra i bordi delle celle */
 table {
   border-collapse: collapse;
 }
@@ -59,4 +59,26 @@ th {
 /* Sfondo azzurro chiaro per le righe alternate della tabella */
 .bdg-light-blue {
   background-color: #bfefff;
+}
+/* Evidenziazione del testo contenuto in span*/
+span {
+  background-color: yellow;
+}
+/* Stile base per i box con immagine di sfondo */
+.image-box {
+  margin: 10px 0;
+  width: 200px;
+  height: 180px;
+  text-align: center;
+  color: white;
+}
+/* Box con immagine di sfondo "monitor" */
+.img-monitor {
+  background-image: url(../img/monitor.jpg);
+  background-position: center;
+}
+/* Box con immagine di sfondo "graph" */
+.img-graph {
+  background-image: url(../img/graph.jpg);
+  background-position: center;
 }
