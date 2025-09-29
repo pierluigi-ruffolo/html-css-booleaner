@@ -20,6 +20,11 @@ main {
   padding-left: 10px;
   margin-top: 10px;
 }
+/* Font titolo */
+.title {
+  font-size: 50px;
+  font-weight: 700;
+}
 /* Testo in grigio  */
 .color-grey {
   color: rgb(128, 128, 128);
@@ -36,4 +41,22 @@ main {
 /* Padding sulla lista */
 .list {
   padding-left: 20px;
+}
+/* Padding orizzontale per le celle della tabella */
+.pd-50 {
+  padding: 0 50px;
+}
+/* Impedisce lo spazio tra i bordi delle celle */
+table {
+  border-collapse: collapse;
+}
+/* Stile intestazioni tabella */
+th {
+  text-align: left;
+  background-color: #00aeef;
+  color: white;
+}
+/* Sfondo azzurro chiaro per le righe alternate della tabella */
+.bdg-light-blue {
+  background-color: #bfefff;
 }
